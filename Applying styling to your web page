@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azim Tech</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: right;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .welcome img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+            display: inline-block;
+        }
+        .menu img {
+            width: 100px;
+            height: 100px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Azim Tech</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </nav>
+</header>
+
+<div id="home" class="container welcome">
+    <h2>Welcome to Brian Robert Tech</h2>
+    <p>Welcome to Azim Tech, your ultimate destination for exploring the latest in technology! At Brian Tech, we are passionate about bringing you the most cutting-edge innovations, insightful reviews, and practical tips to enhance your tech-savvy lifestyle. Whether you’re a tech enthusiast, a professional looking to stay ahead of the curve, or someone curious about the evolving tech landscape, our content is tailored to meet your needs and spark your curiosity. Dive into a world of technology with us as we unravel the complexities of emerging trends, provide comprehensive guides, and showcase groundbreaking advancements. Our mission is to make technology accessible and engaging for everyone, ensuring you’re equipped with the knowledge and tools to thrive in this digital age. Thank you for visiting Azim Tech—let’s embark on this exciting journey through technology together!</p>
+    <a href="https://community.thriveglobal.com/wp-content/uploads/2020/07/Modren-Tech.jpg">
+        <img src="https://community.thriveglobal.com/wp-content/uploads/2020/07/Modren-Tech.jpg" alt="Modern Tech">
+    </a>
+</div>
+
+<div id="gallery" class="container gallery">
+    <h2>Gallery</h2>
+    <a href="https://static01.nyt.com/images/2021/04/29/travel/30waterfalls-11/oakImage-1619704236863-superJumbo.jpg?quality=75&auto=webp">
+        <img src="https://static01.nyt.com/images/2021/04/29/travel/30waterfalls-11/oakImage-1619704236863-superJumbo.jpg?quality=75&auto=webp" alt="Waterfall">
+    </a>
+    <a href="https://s2.best-wallpaper.net/wallpaper/iphone/1902/Vegetables-and-fruits-cabbage-peppers-tomatoes-grapes-oranges-cucumbers_iphone_320x480.jpg">
+        <img src="https://s2.best-wallpaper.net/wallpaper/iphone/1902/Vegetables-and-fruits-cabbage-peppers-tomatoes-grapes-oranges-cucumbers_iphone_320x480.jpg" alt="Fruits and Vegetables">
+    </a>
+    <a href="https://imageio.forbes.com/specials-images/imageserve/637b1d11729a96ce28ea598c/The-Top-10-Tech-Trends-In-2023-Everyone-Must-Be-Ready-For/960x0.jpg?height=399&width=711&fit=bounds">
+        <img src="https://imageio.forbes.com/specials-images/imageserve/637b1d11729a96ce28ea598c/The-Top-10-Tech-Trends-In-2023-Everyone-Must-Be-Ready-For/960x0.jpg?height=399&width=711&fit=bounds" alt="Tech Trends">
+    </a>
+</div>
+
+<div id="menu" class="container">
+    <h2>Menu</h2>
+    <div class="menu-item">
+        <a href="https://example.com/pizza-image">
+            <img src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto/new-project1721056422568.jpg" alt="Pizza">
+            Pizza
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="https://example.com/burger-image">
+            <img src="https://www.allrecipes.com/thmb/5bbowF39Flo1sblOqjMQifuj1a8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg" alt="Burger">
+            Burger
+        </a>
+    </div>
+    <div class="menu-item">
+        <a href="https://example.com/salad-image">
+            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2014/05/Epic-summer-salad-hub-2646e6e.jpg?quality=90&webp=true&resize=375,341" alt="Salad">
+            Salad
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
